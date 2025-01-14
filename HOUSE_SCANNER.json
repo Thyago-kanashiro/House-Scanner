@@ -1,0 +1,17 @@
+{
+  "endpoints": [
+    {
+      "url": "/prever-preco",
+      "method": "POST",
+      "description": "Recebe características de uma casa e retorna o preço previsto.",
+      "input": {
+        "tamanho": "float (metros quadrados)",
+        "quartos": "int (número de quartos)",
+        "localizacao": "int (escala de 1 a 10)"
+      },
+      "output": {
+        "preco_previsto": "float (preço previsto em reais)"
+      }
+    }
+  ]
+}
